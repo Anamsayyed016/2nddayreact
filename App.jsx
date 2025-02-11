@@ -1,6 +1,8 @@
 import './App.css'
 import Card from './card'
+import Child1 from './Child'
 import Myimg from './lip.avif'
+// import Child1 from './Child'
 function App() {
   // let para={
   //   color:"blue"
@@ -32,7 +34,7 @@ function App() {
             </div>
           </section> */}
 
-          <section>
+          {/* <section>
             <div className="hero_sec">
               <h1>Welcome to hero <br /> section</h1>
               <h1>For more details...</h1>
@@ -43,8 +45,8 @@ function App() {
               </div>
 
               <button className="btn">Click for more details....</button>
-          </section>
-
+          </section> */}
+      <Child1 name="Anam"/>
           <Card/>
     </>
   )

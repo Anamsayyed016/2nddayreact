@@ -1,15 +1,24 @@
 import Myimg from './lip.avif'
 function  Card(){
+    let name = "Anam"
+    // let age = prompt("Enter the age")
 
+        let person={
+            fname : "Anam",
+            lname : "Sayyed",
+            age : 27
+        }
+
+            function fun(a){
+                // alert("Working")
+                return a+a
+            }
     return(
-            <section className="card">
-                <div className="img1">
-                <img src={Myimg} alt="" />
-                </div>
-                <h1>This is my fiist card</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat beatae, corrupti, a fugiat vero porro accusantium sed reiciendis sit inventore numquam et. Sint, libero molestias? Ipsum, nemo dicta. Et, nulla!</p>
-                <button>Click for more details</button>
-            </section>
+            <>
+                <h1>My name is {person.fname}</h1>
+                <h1>My last name  is {person.lname} and Age {person.age}</h1>
+                {fun(10)}
+            </>
     )
 }
 
