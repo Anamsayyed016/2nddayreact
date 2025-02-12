@@ -1,4 +1,4 @@
-const Child1 = ()=>{
+const Child3 = ()=>{
     let {name,age}=props
     return (
         
@@ -9,4 +9,4 @@ const Child1 = ()=>{
         </>
     )
 }
-export default Child1
+export default Child3

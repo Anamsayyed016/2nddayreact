@@ -2,6 +2,7 @@ import './App.css'
 import Card from './card'
 import Child1 from './Child'
 import Myimg from './lip.avif'
+// import Child3 from './Child3'
 // import Child1 from './Child'
 function App() {
   // let para={
@@ -46,8 +47,10 @@ function App() {
 
               <button className="btn">Click for more details....</button>
           </section> */}
-      <Child1 name="Anam"/>
+      {/* <Child1 name="Anam" age={27}/> */}
           <Card/>
+          <Child3 name="Ali" age ={28}/>
+
     </>
   )
 }

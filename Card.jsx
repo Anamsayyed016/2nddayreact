@@ -15,9 +15,9 @@ function  Card(){
             }
     return(
             <>
-                <h1>My name is {person.fname}</h1>
+                {/* <h1>My name is {person.fname}</h1>
                 <h1>My last name  is {person.lname} and Age {person.age}</h1>
-                {fun(10)}
+                {fun(10)} */}
             </>
     )
 }
